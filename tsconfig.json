@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "jsx": "preserve",	
+    "strict": true,	
+    "noUnusedLocals": false,		
+    "noUnusedParameters": true,		
+    "noImplicitReturns": true,		
+    "baseUrl": "./src",			
+    "paths": {				
+      "components/*": ["./components/*"],
+      "utils/*": ["./utils/*"],		
+      "hooks/*": ["./hooks/*"]		
+    },
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "downlevelIteration": true
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules", "public", ".cache"]
+}
